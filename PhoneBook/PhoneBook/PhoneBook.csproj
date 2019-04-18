@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PhoneBook.cs" />
     <Compile Include="Locations.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
