@@ -1,0 +1,17 @@
+(fixed)"Add" (with not enough parameters, e.g. with only 2)  =>{"Index was outside the bounds of the array."}	System.IndexOutOfRangeException
+(fixed)"Add" with correct paramteres apart from int (badge parameter) Input: 'a' => {"Input string was not in a correct format."} System.FormatException
+(fixed)no info for 0 search results
+(fixed)"ID a" => System.FormatException: 'Input string was not in a correct format.'
+(fixed)No parameters apart from function provided:
+	"Name" => System.IndexOutOfRangeException: 'Index was outside the bounds of the array.'
+	"ID" => System.IndexOutOfRangeException: 'Index was outside the bounds of the array.'
+	"Location" => System.IndexOutOfRangeException: 'Index was outside the bounds of the array.'
+	"Add" (without parameters) =>{"Index was outside the bounds of the array."}	System.IndexOutOfRangeException
+Location 1 => employees from Koszalin are listed
+--------------------------
+New/not fixed:
+no info for 0 search results => write Name Andrzej -> NO OUTPUT
+write ID 2 -> NO OUTPUT
+write Location Karaiby -> KOSZALIN IS SHOWN
+write Location szczecin -> Koszalin is shown
+dont allow to add user with the same badgeID
